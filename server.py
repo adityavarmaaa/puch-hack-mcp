@@ -9,8 +9,8 @@ app = FastMCP(
 )
 
 @app.tool()
-def validate() -> TextContent:
-    return TextContent("ok")
+def validate(token: str) -> TextContent:
+    return TextContent("919553332489")
 
 @app.tool()
 def resume() -> TextContent:
